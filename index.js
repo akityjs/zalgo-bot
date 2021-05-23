@@ -5,7 +5,7 @@ const {
 const { VK, CallbackService } = require('vk-io'); // импортируем vk-io для работой с ВК
 const { HearManager } = require('@vk-io/hear'); // импортируем hear для работы с командами
 
-const vk = new VK({ // токен и ид
+const vk = new VK({ // токен
 	token: TOKEN
 });
 
